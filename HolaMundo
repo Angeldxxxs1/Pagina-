@@ -1,0 +1,38 @@
+<!DOCTYPE html><!--version del lenguaje 5 , nombre del lenguaje a programar-->
+<html lang="en"><!--utiliza el lenguaje español-->
+<head>
+    <meta charset="UTF-8"><!--indica al navegador el uso de tildes y  vocales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--establece un ancho del dispositivo y establece el nivel de zoom en 1.0-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title><!--titulo-->
+</head><!--contiene los metadatos sobre el documento--> 
+<body>
+<div class="caja">
+    <input type="text" value="HOLA MUNDO"><br>
+    <h3>Concepto de una web responiva</h3>
+    <h4>  Una web responiva es un diseño de sitio web que se adapta automaticamente a diferentes tamaños de pantalla y dispositivo , Codigo : <br> 
+        <br> @media (max-width: 600px){
+            <br>nav ul li {
+                display: block;
+                margin: 10px
+          <br>  }
+            <br>header {
+                padding: 2rem;
+           <br> }
+
+            <br> main{
+                padding: 10px;
+            }
+        <br> } <br>
+        <img src="diseno.jpg"   class="img">
+    </h4>
+</div>
+
+<footer>
+    
+</footer>
+
+
+</body>
+</html>
+    
